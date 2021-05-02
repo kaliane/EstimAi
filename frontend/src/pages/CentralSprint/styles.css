@@ -1,0 +1,60 @@
+
+.sprint-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.sprint-container header{
+    display: flex;
+    align-items: center;
+}
+
+.sprint-container header span{
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.sprint-container .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.sprint-container .cabecalho .button{
+    width: 30%;
+}
+
+.sprint-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sprint-container thead th {
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+.sprint-container tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+  
+.sprint-container tbody tr:hover {
+    background-color: #eee;
+}
+
+.sprint-container tbody tr td button{
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: auto;
+    transition: border-color 0.2s;
+}
+
+.sprint-container tbody tr td button:hover{
+    border-color: #999;
+}

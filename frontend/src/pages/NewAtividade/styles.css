@@ -1,0 +1,115 @@
+.newatividade-container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.newatividade-container .content{
+    width: 100%;
+    padding: 30px 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.newatividade-container .content header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newatividade-container .content header span{
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.newatividade-container .content .cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+#divBusca{
+    width: 50%;
+    height: 60px;
+    border: 1px solid#dcdce6;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 24px;
+  }
+  
+  #txtBusca{
+    width: 90%;
+    height:58px;
+    float:left;
+    color: #333;
+    padding-left:5px;
+    border:none;
+  }
+
+#btnBusca{
+    background: none;
+    border: none;
+    height:58px;
+}
+
+.newatividade-container .content form{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.newatividade-container .content form input,
+.newatividade-container .content form label,
+.newatividade-container .content form p,
+.newatividade-container .content form textarea{
+    margin-bottom: 10px;
+}
+
+.newatividade-container .content form .input-numeros{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.newatividade-container .content form .input-numeros label{
+    flex:1;
+}
+
+.newatividade-container .content form .input-numeros label + label,
+.newatividade-container .content form .input-estimativa label + label{
+    margin-left: 8px;
+}
+
+.newatividade-container .content form .input-estimativa{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: space-around;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.newatividade-container .content form .input-estimativa label{
+    flex:1;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.newatividade-container .content form .button-estimativa{
+    display: flex;
+}
+
+.newatividade-container .content form .button-estimativa button + button{
+    margin-left: 8px;
+}
+
+#titest{
+    text-align: center;
+    font-weight: bold;
+}
